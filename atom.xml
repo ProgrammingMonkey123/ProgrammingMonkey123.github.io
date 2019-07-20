@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ProgrammingMonkey.top/"/>
-  <updated>2019-07-20T00:34:42.133Z</updated>
+  <updated>2019-07-20T02:45:54.095Z</updated>
   <id>http://ProgrammingMonkey.top/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>本科生涯回顾（三）无人送货小车</title>
+    <link href="http://ProgrammingMonkey.top/2019/07/20/%E6%9C%AC%E7%A7%91%E7%94%9F%E6%B6%AF%E5%9B%9E%E9%A1%BE%EF%BC%88%E4%B8%89%EF%BC%89%E6%97%A0%E4%BA%BA%E9%80%81%E8%B4%A7%E5%B0%8F%E8%BD%A6/"/>
+    <id>http://ProgrammingMonkey.top/2019/07/20/本科生涯回顾（三）无人送货小车/</id>
+    <published>2019-07-20T02:16:28.000Z</published>
+    <updated>2019-07-20T02:45:54.095Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>　　大三开始跟着老师和几个同学一起做一个无人送货小车的项目，后来还凭借这个项目拿到了国家级的大学生创新立项，这个项目既能帮助我了解一些前沿的研究，也能锻炼我的动手能力，另外还第一次跟企业界有了直接的接触，确实是一次值得记录的经历。</p><a id="more"></a><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>　　项目的最终目标是实现低速、限定范围的无人送货。总的来说这个项目还是挺难的，我们一开始是四个同学一起做，碰到的问题可以说是非常多了。</p><h1 id="主要硬件设备"><a href="#主要硬件设备" class="headerlink" title="主要硬件设备"></a>主要硬件设备</h1><p>　　飞思卡尔车模、pixhawk开源飞控、Nvidia TX2、摄像头、超声波雷达、电调、电池、电机、舵机等搭建小车所必需的零部件。我们是先做了一个模型车，搭起来的效果图大概是这样</p><p> <img src="http://puvyzrmd9.bkt.clouddn.com/car.jpg" alt></p><h1 id="我主要负责的工作"><a href="#我主要负责的工作" class="headerlink" title="我主要负责的工作"></a>我主要负责的工作</h1><ul><li>搭建开发环境：使用的NvidiaTX2,是少数嵌入式设备中能跑深度学习模型的，armV7架构，不能装anaconda，很多库也不支持，经历了一些坑。　</li><li>使用Pixhawk飞控，内部是Nuttx操作系统。在上位机上使用dronekit进行小车控制的程序编写(python)，内部原理是利用了MAVLink通信协议。</li><li>调用YOLOv3进行了目标检测，通过改变网络结构实现加速，并通过作者提供的接口在Python程序上调用。</li></ul><h1 id="感受"><a href="#感受" class="headerlink" title="感受"></a>感受</h1><p>　　这个项目本身是很高大上的，不过由于我实在太菜，加上到了大三下学期也有一些别的事情，投入的精力相对于这么复杂的项目来说还是偏少吧。不过除了这个项目本身技术上的收获，更多的是其他方面，比如我们的指导老师有深厚的工业界背景，他非常强调写文档，然后他还找了一些企业界的资源，让我们有机会跟公司里的员工直接打交道。对于这么复杂的项目，如何进行项目管理，如何协调队友一起合作，还是有很多学问的。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h1&gt;&lt;p&gt;　　大三开始跟着老师和几个同学一起做一个无人送货小车的项目，后来还凭借这个项目拿到了国家级的大学生创新立项，这个项目既能帮助我了解一些前沿的研究，也能锻炼我的动手能力，另外还第一次跟企业界有了直接的接触，确实是一次值得记录的经历。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>本科生涯回顾（二）高教社杯数学建模比赛</title>
